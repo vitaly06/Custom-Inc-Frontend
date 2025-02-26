@@ -1,0 +1,70 @@
+.header{
+    padding: 10px;
+    border: #2C3333 1px solid;
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Yulong';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 27.08px;
+    letter-spacing: 10%;
+    text-align: center;
+
+}
+
+
+/* burger menu */
+.menu{
+    border-right: #2C3333 1px solid;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu hr{
+    width: 30px;
+}
+
+.hr-menu{
+    height: 0.5px;
+    width: 30px;
+    background-color: black;
+}
+
+
+/* header buttons  */
+.header-buttons{
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    display: flex;
+}
+
+
+.header-buttons p{
+    color: #AEAEAE;
+}
+
+.main-div .main-p{
+    padding: 15px 25px;
+    color: white;
+}
+
+.main-div{
+    background-color: #01A1AD;
+}
+/* trash and profile */
+.header-right-side{
+    width: 10%;
+    border-left: #2C3333 1px solid;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
