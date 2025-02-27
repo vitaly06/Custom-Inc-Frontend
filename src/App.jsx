@@ -1,11 +1,13 @@
 import './App.css'
-import Header from './Componets/Header/Header'
+import FirstBLock from './Componets/MainPage/FirstBlock/FirstBlock'
+import Header from './Componets/MainPage/Header/Header'
 
 function App() {
 
   return (
     <>
       <Header/>
+      <FirstBLock/>
     </>
   )
 }

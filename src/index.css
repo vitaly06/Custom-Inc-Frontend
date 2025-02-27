@@ -11,3 +11,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'ARCO';
+  src: url('/fonts/ARCO/arco-cyrillic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
