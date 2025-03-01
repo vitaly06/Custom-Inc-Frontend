@@ -1,0 +1,61 @@
+.second-block{
+    height: 100vh;
+}
+
+.about-us{
+    margin: 0 200px;
+    border: 1px solid #2C3333;
+    border-top: none; 
+    border-bottom: none;  
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.about-us p{
+    font-family: 'ARCO', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #2C3333;
+}
+
+/* Parallel blocks */
+.welcome-block{
+    margin: 0 30px;
+    border: 1px solid #2C3333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-shirts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: #01A1AD;
+    border-right: 1px solid #2C3333;
+}
+.right-welcome{
+    width: 50%;
+    padding: 0px;
+}
+
+.p-welcome{
+    text-align: center;
+    color: #01A1AD;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "ARCO", sans-serif;
+    padding: 30px 30px 0 30px;
+}
+
+.text-welcome{
+    font-family: "Yulong", sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    padding: 30px;
+}
+
+.default{
+    padding: 10px 30px 30px 30px;
+}

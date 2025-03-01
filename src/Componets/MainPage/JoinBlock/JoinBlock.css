@@ -1,0 +1,32 @@
+.join-block{
+    margin: 0px 30px 75px 30px;
+    border: 1px solid #FFFFFF;
+    background: #01A1AD;
+    padding: 50px;
+}
+
+.come-us{
+    font-family: 'ARCO', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffff;
+}
+
+.come-p{
+    font-family: 'Yulong';
+    font-size: 28px;
+    color: #ffff;
+}
+
+.come-button{
+    padding: 15px;
+    background: #FFFFFF;
+    margin-top: 50px;
+    border: 1px solid #2C3333;
+    font-family: 'ARCO', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
