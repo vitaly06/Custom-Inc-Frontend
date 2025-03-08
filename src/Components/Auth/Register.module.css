@@ -1,0 +1,94 @@
+/* Register.module.css */
+.registerForm {
+    background: url('/auth/bg.svg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    justify-content: space-evenly;
+    display: flex;
+    background: #fff;
+    width: 90%;
+    height: 80%;
+    max-width: 1440px;
+    border: 2px solid #000000;
+}
+
+.leftSide {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.haveAccount {
+    font-family: 'ARCO', sans-serif;
+    font-weight: 700;
+}
+
+.haveAccount span {
+    color: #01A1AD;
+}
+
+.logoLeft {
+    height: 350px;
+    width: auto;
+}
+
+/* FORM */
+.rightSide {
+    width: 50%;
+    border-left: 2px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.regH {
+    font-family: 'ARCO', sans-serif;
+    color: #01A1AD;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.rightSide form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 15px;
+}
+
+.inputLabel {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabel label {
+    font-family: 'Yulong', sans-serif;
+    font-size: 36px;
+}
+
+.inputLabel input {
+    padding: 10px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.regButton {
+    font-family: 'ARCO', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    border: #000000 1px solid;
+    background: #01A1AD;
+    padding: 20px;
+    margin: 20px auto 0 auto;
+}

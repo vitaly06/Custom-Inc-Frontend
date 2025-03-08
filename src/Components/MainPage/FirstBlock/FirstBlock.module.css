@@ -1,4 +1,5 @@
-.first-block{
+/* FirstBlock.module.css */
+.firstBlock {
     border: 1px solid #2C3333;
     border-top: none;
     background: url('/cross.svg');
@@ -10,11 +11,11 @@
     justify-content: space-around;
 }
 
-.your-style-block{
+.yourStyleBlock {
     justify-self: flex-start;
 }
 
-.your-style-p{
+.yourStyleP {
     font-family: 'ARCO', sans-serif;
     font-weight: 700;
     font-size: 140px;
@@ -22,7 +23,7 @@
     text-shadow: -3px -2px 3px #CAB4B8;
 }
 
-.our-holst-p{
+.ourHolstP {
     font-family: 'Yulong', sans-serif;
     font-size: 140px;
     color: #2C3333;
@@ -31,7 +32,7 @@
 
 /* Socials */
 
-.socials-buttons{
+.socialsButtons {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -40,25 +41,25 @@
     border: #2C3333 1px solid;
 }
 
-.socials{
+.socials {
     display: flex;
 }
 
-.instagram{
+.instagram {
     background: url('/socials/instagram.svg');
     background-repeat: no-repeat;
 }
 
-.telegram{
+.telegram {
     background: url('/socials/telegram.svg');
     background-repeat: no-repeat;
 }
 
-.vk{
+.vk {
     background: url('/socials/vk.svg');
 }
 
-.link-button{
+.linkButton {
     height: 43px;
     width: 43px;
     background-repeat: no-repeat;
@@ -67,8 +68,7 @@
     padding: 10px;
 }
 
-
-.to-catalog a{
+.toCatalog a {
     background: #01A1AD;
     padding: 20px;
     font-family: 'Yulong', sans-serif;
@@ -77,11 +77,11 @@
 }
 
 /* Right side */
-.t-shirts {
+.tShirts {
     height: 90%;
 }
 
-.t-shirts img {
+.tShirts img {
     object-fit: cover;
     width: calc(100% - 50px); /* Учитываем отступы, чтобы изображение не выходило за пределы контейнера */
     height: auto; /* Автоматическая высота для сохранения пропорций */

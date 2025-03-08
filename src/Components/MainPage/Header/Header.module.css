@@ -1,8 +1,9 @@
-.header{
+/* Header.module.css */
+.header {
     position: fixed;
     top: 0;
     left: 0;
-    right: 0px;
+    right: 0;
     padding: 10px;
     background-color: white;
     border: #2C3333 1px solid;
@@ -16,12 +17,10 @@
     letter-spacing: 10%;
     height: 80px;
     text-align: center;
-
 }
 
-
 /* burger menu */
-.menu{
+.menu {
     border-right: #2C3333 1px solid;
     width: 10%;
     display: flex;
@@ -31,19 +30,18 @@
     align-items: center;
 }
 
-.menu hr{
+.menu hr {
     width: 30px;
 }
 
-.hr-menu{
+.hrMenu {
     height: 0.5px;
     width: 30px;
     background-color: black;
 }
 
-
-/* header buttons  */
-.header-buttons{
+/* header buttons */
+.headerButtons {
     width: 100%;
     justify-content: center;
     gap: 60px;
@@ -51,26 +49,25 @@
     display: flex;
 }
 
-
-.header-buttons p{
+.headerButtons p {
     color: #AEAEAE;
 }
 
-.main-div .main-p{
+.mainDiv .mainP {
     padding: 15px 25px;
     color: white;
 }
 
-.main-div{
+.mainDiv {
     background-color: #01A1AD;
 }
+
 /* trash and profile */
-.header-right-side{
+.headerRightSide {
     width: 10%;
     border-left: #2C3333 1px solid;
     display: flex;
     gap: 30px;
     justify-content: center;
     align-items: center;
-
 }

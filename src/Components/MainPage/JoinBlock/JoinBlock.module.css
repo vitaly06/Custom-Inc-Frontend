@@ -1,24 +1,24 @@
-.join-block{
+.joinBlock{
     margin: 0px 30px 75px 30px;
     border: 1px solid #FFFFFF;
     background: #01A1AD;
     padding: 50px;
 }
 
-.come-us{
+.comeUs{
     font-family: 'ARCO', sans-serif;
     font-weight: 700;
     font-size: 48px;
     color: #ffff;
 }
 
-.come-p{
+.comeP{
     font-family: 'Yulong';
     font-size: 28px;
     color: #ffff;
 }
 
-.come-button{
+.comeButton{
     padding: 15px;
     background: #FFFFFF;
     margin-top: 50px;
