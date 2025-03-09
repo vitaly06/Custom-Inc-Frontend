@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from 'axios';
 import styles from './Register.module.css'; // Импортируйте модульные стили
 import logo from '/logo.svg';
-import { Link } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 
 export default function Register() {
     const [fullName, setFullName] = useState('');
@@ -13,6 +13,8 @@ export default function Register() {
     const [repassword, setRepassword] = useState('');
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
+
+    const navigate = useNavigate()
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -32,6 +34,7 @@ export default function Register() {
                 repassword
             });
             setSuccess('Вы успешно зарегистрировались!');
+            navigate('/login')
         } catch (err) {
             if (err.response) {
                 setError(err.response.data.message || 'Ошибка при регистрации');

@@ -1,0 +1,45 @@
+.profilePage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.profileContainer{
+    padding: 30px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border: black 1px solid;
+    width: 90%;
+    height: 90%;
+    max-width: 1440px;
+}
+
+.hProfile{
+    color: #01A1AD;
+    align-self: center;
+    font-family: 'ARCO', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.firstLine{
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    height: 300px;
+    width: auto;
+}
+.hInfo, .underInfo, .changePassword{
+    font-family: 'Yulong', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.changePassword{
+    color: #01A1AD;
+}

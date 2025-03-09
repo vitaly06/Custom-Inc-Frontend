@@ -2,13 +2,15 @@ import { useState } from "react";
 import axios from 'axios';
 import styles from './Login.module.css'; 
 import logo from '/logo.svg';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
+
+    const navigate = useNavigate()
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -20,7 +22,10 @@ export default function Login() {
                 password,
             });
             console.log(response);
+
+            localStorage.setItem('token', response.data.access_token);
             setSuccess('Вы успешно авторизовались!');
+            navigate("/profile")
         } catch (err) {
             if (err.response) {
                 setError(err.response.data.message || 'Ошибка при авторизации');
